@@ -1,20 +1,19 @@
-const getListStudents  = () => [
+const getListStudents = () => [
   {
     id: 1,
-    firstname: 'Guillaume',
-    location: 'San Francisco'
+    firstName: 'Guillaume',
+    location: 'San Francisco',
   },
   {
     id: 2,
-    firstname: 'James',
+    firstName: 'James',
     location: 'Columbia',
   },
   {
     id: 5,
-    firstname: 'Serena',
+    firstName: 'Serena',
     location: 'San Francisco',
-  }
+  },
 ];
-
 
 export default getListStudents;
